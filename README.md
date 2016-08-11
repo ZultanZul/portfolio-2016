@@ -6,18 +6,27 @@ Sections
 -------------------
 
 -Introduction
+
 --Graphs
+
 --Bio
 
 -Resume
+
 --Work Experience
+
 --Education
 
 -Portfolio
+
 --Web
+
 --Video
+
 --Display
+
 --Email
 
 -Contact
+
 --AJAX contact form
