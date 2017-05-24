@@ -598,6 +598,11 @@ h3 {
     width: 405px;
 }
 
+.single {
+    float: none;
+    margin:40px auto;
+}
+
 .empDesc span {
     color: #2D2D2D;
     font-size: 12px;
