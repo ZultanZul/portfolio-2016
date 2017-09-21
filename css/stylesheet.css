@@ -950,20 +950,43 @@ textarea {
 .gallery {
     width: 700px;
     margin: 30px 0 0 0;
-    height: 394px;
+    /*height: 394px;*/
     float: right;
 }
 .cell {
     width: 700px;
-    height: 394px;
-    background-color: #00AA22;
+    /*height: 394px;*/
+    background-color: #ffffff;
     color: #ffffff;
     line-height: 400px;
     text-align: center;
     font-size: 25px;
 }
-.b {
-    background-color: #56cc6d;
+
+.cell button {
+  display: block;
+  position: absolute;
+  top:0;
+  right: 0;
+  border: none;
+  background:none;
+  background-image: url('../images/refresh.png');
+  width:26px;
+  height: 26px;
+  cursor: pointer;
+  outline: none;
+  transition: all 1s;
+}
+
+.cell button:hover {
+  -ms-transform: rotate(300deg); /* IE 9 */
+  -webkit-transform: rotate(300deg); /* Chrome, Safari, Opera */
+  transform: rotate(300deg);
+  transition: 1s;
+}
+
+.cell button:focus {
+  outline: none;
 }
 
 span.skill {
