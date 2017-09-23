@@ -1,7 +1,7 @@
 <?php
 // Configure your Subject Prefix and Recipient here
 $subjectPrefix = '[Portfolio Contact]';
-$emailTo       = 'folio@chris-halliwell.co.uk';
+$emailTo       = 'chris@chris-halliwell.co.uk';
 
 $errors = array(); // array to hold validation errors
 $data   = array(); // array to pass back data
