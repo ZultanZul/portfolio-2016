@@ -235,6 +235,9 @@
         width: 600px;
         height: 338px;
     }
+    .cell .banner {
+        height: 600px  !important;
+    }
 }
 @media only screen and (max-width : 414px) {
     .anchor {
@@ -429,6 +432,10 @@
         width: 300px;
         height: 169px;
     }
+    .cell .banner {
+        height: 600px  !important;
+    }
+
 }
 @media only screen and (max-width : 320px) {
     #nav a#pull {
