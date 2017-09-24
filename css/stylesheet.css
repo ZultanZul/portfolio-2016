@@ -91,8 +91,8 @@ body {
 }
 
 .header-promo {
-    height: 350px;
-    padding-top: 275px;
+    height: 625px;
+    /*padding-top: 275px;*/
     background-color: #2d2d2d;
     background-image: url('../images/header-bg.jpg');
     background-repeat: repeat-x;
@@ -126,7 +126,7 @@ body {
 
 .title {
     margin: 0 0 0 0;
-    padding: 0;
+    padding-top: 275px;
     font-family: "robotobold";
     font-size: 35px;
     color: #ffffff;
@@ -143,7 +143,7 @@ body {
     left: 50%;
     margin-left: -325px;
     position: absolute;
-    top: 16px;
+    bottom: 16px;
     width: 55px;
     z-index: 0;
 }
@@ -154,7 +154,7 @@ body {
     right: 50%;
     margin-right: -325px;
     position: absolute;
-    top: 16px;
+    bottom: 16px;
     width: 55px;
     z-index: 0;
 }
@@ -908,6 +908,10 @@ textarea {
     -webkit-animation: none;
 }
 
+.folio .title {
+    padding-top: 0;
+}
+
 .folio-content {
     width: 950px;
     margin: 20px auto;
@@ -989,13 +993,13 @@ textarea {
 }
 
 #canvas {
-    position: absolute;
-    top:0;
-    left: 0;
     overflow: hidden;
     display: block;
     width:100%;
     height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
     /*background-color: #000000;*/
 }
 
