@@ -132,6 +132,8 @@ body {
     text-transform: uppercase;
     text-align: center;
     position:relative;
+    text-shadow: 5px 5px 25px #515151;
+    pointer-events: none;
  }
 .title:before {
     border-top: 3px solid #FFFFFF;
@@ -143,6 +145,7 @@ body {
     bottom: 16px;
     width: 55px;
     z-index: 0;
+    pointer-events: none;
 }
 .title:after {
     border-top: 3px solid #FFFFFF;
@@ -154,6 +157,7 @@ body {
     bottom: 16px;
     width: 55px;
     z-index: 0;
+    pointer-events: none;
 }
 .sub-title {
     font-size: 13px;
@@ -163,6 +167,8 @@ body {
     margin: 0 auto;
     width: 450px;
     position:relative;
+    pointer-events: none;
+    text-shadow: 0px 0px 10px #515151;
 }
 
 .section-header {

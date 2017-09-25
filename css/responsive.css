@@ -237,6 +237,9 @@
     #canvas {
         height: 430px !important;
     }
+    .controls {
+        display: none !important;
+    }
 }
 @media only screen and (max-width : 414px) {
     .anchor {
