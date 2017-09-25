@@ -175,7 +175,7 @@ loaderManager.onStart = function ( url, itemsLoaded, itemsTotal ) {
 };
 loaderManager.onLoad = function ( ) {
 	console.log( 'Loading complete!');
-	finishedLoading();
+	//finishedLoading();
 };
 loaderManager.onProgress = function ( url, itemsLoaded, itemsTotal ) {
 	console.log( 'Loading file: ' + url + '.\nLoaded ' + itemsLoaded + ' of ' + itemsTotal + ' files.' );
@@ -1499,10 +1499,10 @@ function createSeaGull(x,y,z,s){
 	seaGullArray.push(seaGull);
 }
 
-function finishedLoading(){
-	loaded = true;
-	document.getElementById('preloader').classList.add('hidden');
-}
+// function finishedLoading(){
+// 	loaded = true;
+// 	document.getElementById('preloader').classList.add('hidden');
+// }
 
 function init() {
 	createScene();
