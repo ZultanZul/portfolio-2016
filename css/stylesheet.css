@@ -1035,3 +1035,45 @@ span.skill {
 nav a#pull {
     display: none;
 }
+
+
+/* Controls */
+
+.controls {
+    position: relative;
+    bottom: -175px;
+    width: 130px;
+    left: 50%;
+    height: 86px;
+    margin-left: -65px;
+    pointer-events: none;
+}
+.key {
+    padding: 12px 0px;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    color: #ffffff;
+    background: none;
+    display: block;
+    text-align: center;
+    width: 40px;
+    height: 16px;
+    position: absolute;
+    pointer-events: none;
+}
+.w {
+    top: 0px;
+    left: 45px;
+}
+.a {
+    bottom: 0px;
+    left: 0px;
+}
+.s {
+    bottom: 0px;
+    left: 45px; 
+}
+.d {     
+    bottom: 0px;
+    left: 90px;   
+}
