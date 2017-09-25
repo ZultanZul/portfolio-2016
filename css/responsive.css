@@ -121,15 +121,6 @@
     }
     .header-promo {
         height: 500px;
-/*        padding-top: 200px;*/
-        background-color: #2d2d2d;
-        background-image: url('../images/header-bg.jpg');
-        background-repeat: repeat-x;
-        background-position: center;
-        animation: none;
-        -ms-animation: none;
-        -moz-animation: none;
-        -webkit-animation: none;
     }
 
     .section {
@@ -242,6 +233,10 @@
     .cell .banner {
         height: 600px  !important;
     }
+
+    #canvas {
+        height: 430px !important;
+    }
 }
 @media only screen and (max-width : 414px) {
     .anchor {
@@ -291,10 +286,6 @@
     .header-promo {
         height: 425px;
         /*padding-top: 175px;*/
-        background-color: #2d2d2d;
-        background-image: url('../images/header-bg.jpg');
-        background-repeat: repeat-x;
-        background-position: center;
     }
 
     .sub-title {
@@ -438,6 +429,11 @@
     }
     .cell .banner {
         height: 600px  !important;
+    }
+
+    #canvas {
+        height: 375px !important;
+        top: 50px !important;
     }
 
 }

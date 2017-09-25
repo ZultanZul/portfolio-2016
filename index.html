@@ -11,9 +11,11 @@
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="css/loader.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<!--     <script type="text/javascript" src="js/three.min.js"></script>
-    <script type="text/javascript" src="js/OrbitControls.js"></script>
-    <script type="text/javascript" src="js/canvas.js"></script> -->
+    <script type="text/javascript" src="js/three.min.js"></script>
+    <script type="text/javascript" src="js/OrbitControls.js"></script>  
+    <script type="text/javascript" src="js/THREEx.KeyboardState.js"></script>   
+    <script type="text/javascript" src="js/threeCSG.js"></script>
+    <script type="text/javascript" src="js/canvas.js"></script>
     <script src="js/modernizr-2.6.2.min.js"></script>
     <link href="images/favicon.ico"  rel="shortcut icon" />
     <meta property="og:site_name" content="Chris Halliwell" />
@@ -54,94 +56,18 @@
 </div>
 <div class="wrapper">
     <div class="header-promo" id="top">
+
+        <div id="canvas"></div>
+        <div id="preloader">
+            <div class="sk-cube-grid"><div class="sk-cube sk-cube1"></div><div class="sk-cube sk-cube2"></div><div class="sk-cube sk-cube3"></div><div class="sk-cube sk-cube4"></div><div class="sk-cube sk-cube5"></div><div class="sk-cube sk-cube6"></div><div class="sk-cube sk-cube7"></div><div class="sk-cube sk-cube8"></div><div class="sk-cube sk-cube9"></div></div>
+        </div>
         <div class="title"><span class="head-scroller">I'm a Creative Developer, I'm a Digital Designer, I love Emerging Technology, I love WebGL Animations, I love Motion Graphics</span></div>
         <div class="sub-title">A Digital Display Creative Developer Based in London</div>
-        <div class="newHeader"></div>
 
     </div>
-
-
-   <!--  <div class="anchor" id="about">
-        <div class="section-header cyan top-h">
-            <h2>Hello, I'm Chris!</h2>
-            <div class="section-desc">I'm an Interactive Design Consultant</div>
-        </div>
-    </div>
-
-    <div class="section">
-
-        <div class="inner-title-box">
-            <div class="inner-title">
-                Professional Skills
-            </div>
-            <div class="inner-sub-title">
-                Having worked in the industry for 10 years, I have developed a wide range of skills.
-            </div>
-        </div>
-
-        <div class="skillsContainer clearfix">
-
-            <div class="graphs box">
-
-                <div class="graphBar">
-                    <div class="graphBg">
-                        <div class="graphTitle">Responsive Web Design - CSS3 / HTML5</div>
-                        <div class="graphPerc" style="width: 95%; background: #9bce50;"><span>95%</span></div>
-                    </div>
-                </div>
-
-                <div class="graphBar">
-                    <div class="graphBg">
-                        <div class="graphTitle">Email Marketing - Adestra / Mail Chimp </div>
-                        <div class="graphPerc" style="width: 90%"><span>90%</span></div>
-                    </div>
-                </div>
-
-                <div class="graphBar">
-                    <div class="graphBg">
-                        <div class="graphTitle">HTML5 Banners - Adwords / Double Click</div>
-                        <div class="graphPerc" style="width: 90%; background: #9bce50;"><span>90%</span></div>
-                    </div>
-                </div>
-
-                <div class="graphBar">
-                    <div class="graphBg">
-                        <div class="graphTitle">Adobe After Effects / Premiere CC</div>
-                        <div class="graphPerc" style="width: 95%;"><span>95%</span></div>
-                    </div>
-                </div>
-
-                <div class="graphBar">
-                    <div class="graphBg">
-                        <div class="graphTitle">Adobe Photoshop CC</div>
-                        <div class="graphPerc" style="width: 100%; background: #9bce50;"><span>100%</span></div>
-                    </div>
-                </div>
-
-                <div class="graphBar">
-                    <div class="graphBg">
-                        <div class="graphTitle">Print / InDesign / Illustrator</div>
-                        <div class="graphPerc" style="width: 70%;"><span>70%</span></div>
-                    </div>
-                </div>
-
-
-            </div>
-
-            <div class="bio box">
-                <h1>Well-Rounded Digital Designer</h1>
-                <p>I've been working in the Digital Media area for the last 10 years, starting as a Web Designer. Prior to this I studied Digital Media at University focusing on Video Editing, Animation and 3D Design. Currently I'm working with a top agency in a hybrid role working on Motion Graphics, HTML5 banners (rich and standard) and general creative tasks. I'm a lover of technology, and have extensive knowledge of computer hardware and software.</p>
-
-                <p>Although the majority of my professional experience has been in web design and development, my real passion is in video and animation. With the introduction of  HTML5 animations, I've seen these two areas come together! I'm currently exploring SVG animation, Create.JS and the Unity SDK.</p>
-
-            </div>
-
-        </div>
-
-    </div> -->
 
     <div class="anchor" id="resume">
-        <div class="section-header folio-bar cyan">
+        <div class="section-header folio-bar cyan">            
         </div>
     </div>
     <div class="section">
